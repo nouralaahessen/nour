@@ -1,0 +1,110 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form{
+    display:inline-block;
+    margin: 30px auto;
+    align-content: center;
+    width: 350px;
+    height: 600px;
+    box-shadow: #85c6c9;
+    overflow:hidden;
+    border: #4A628A;
+    background-color: lightblue;
+    border-radius: 20px;
+    
+}
+#btn{
+    color: #fcfdfd;
+    width: 200px;
+    height:30px;
+    border-radius: 20px;
+    background-color: #5785d4;
+
+}
+#btn2{
+    color: #fcfdfd;
+    width: 300px;
+    height:40px;
+    border-radius: 20px;
+    background-color: #5785d4;
+}
+body{
+    background-color: #104396;
+
+}
+#fname{
+    color: #104396;
+}
+#ifname{
+border-radius: 5px;
+}
+#lname{
+    color: #104396;
+}
+#ilname{
+    border-radius: 5px;
+}
+#email{
+    color: #104396;
+}
+#iemail{
+    border-radius: 5px;
+}
+#pass{
+    color: #104396;
+}
+#ipass{
+    border-radius: 5px;
+}
+#confirmpass{
+    color: #104396;
+}
+#iconfirmpass{
+    border-radius: 5px;
+}
+#radio{
+    color: #104396;
+}
+#file{
+    color: #104396;
+}
+#checkbox{
+    
+    color: #104396;
+}
+#paragraph{
+    color: #104396;
+}
+.form2{
+    display:inline-block;
+    margin: 30px auto;
+    align-content: center;
+    width: 350px;
+    height: 600px;
+    box-shadow: #85c2c5;
+    overflow:hidden;
+    border: #4A628A;
+    background-color: rgb(210, 235, 243);
+    border-radius: 20px;
+}
+.parent {
+    width: 400px;
+    height: 200px;
+    margin: 40px auto;
+    position: relative;
+    align-content: center;
+    transition: width 2s;
+    transform: translate(50%, 50%);
+
+  }
+  .parent .child {
+    width: 150px;
+    height: 75px;
+    position:absolute;
+    left: -68%;
+    top: 20%;
+    margin-left: -75px;
+    margin-top: -37.5px;
+    align-content: center;
+  }
